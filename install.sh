@@ -13,6 +13,9 @@ starship() {
     curl -sS https://starship.rs/install.sh | sh
 }
 
+rm -rf ~/.gitconfig
+rm -rf ~/.config
+
 for f in .??*; do
     [ "$f" = ".git" ] && continue
     [ "$f" = ".gitconfig.local.template" ] && continue
