@@ -8,10 +8,12 @@ nerd_fonts() {
   cd ..
   rm -rf nerd-fonts
 }
+nerd_fonts
 
 starship() {
     curl -sS https://starship.rs/install.sh | sh
 }
+starship
 
 rm -rf ~/.gitconfig
 rm -rf ~/.config
