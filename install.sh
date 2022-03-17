@@ -1,19 +1,14 @@
 #!/bin/sh
+
+git clone --branch=master --depth 1 https://github.com/ryanoasis/nerd-fonts.git
+cd nerd-fonts
+./install.sh $1  # "Source" to install Sauce Code Nerd Font
+cd ..
+rm -rf nerd-fonts
+
+curl -sS https://starship.rs/install.sh | sh
+
 cd `dirname $0`
-
-nerd_fonts() {
-  git clone --branch=master --depth 1 https://github.com/ryanoasis/nerd-fonts.git
-  cd nerd-fonts
-  ./install.sh $1  # "Source" to install Sauce Code Nerd Font
-  cd ..
-  rm -rf nerd-fonts
-}
-nerd_fonts
-
-starship() {
-    curl -sS https://starship.rs/install.sh | sh
-}
-starship
 
 rm -rf ~/.gitconfig
 rm -rf ~/.config
