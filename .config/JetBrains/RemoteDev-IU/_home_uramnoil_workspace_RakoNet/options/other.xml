@@ -1,0 +1,49 @@
+<application>
+  <component name="DynamicPluginEnabler">
+    <trackers>
+      <map>
+        <entry key="25SIGxMeNNeVPFFQOcGWQKnQqLX">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="Default (Template) Project">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+      </map>
+    </trackers>
+  </component>
+  <component name="JdkInstallerHistory">
+    <option name="installedItems">
+      <installed-jdk>
+        <option name="fullText" value="Amazon Corretto 16.0.2" />
+        <option name="installDir" value="$USER_HOME$/.jdks/corretto-16.0.2" />
+        <option name="javaHomeDir" value="$USER_HOME$/.jdks/corretto-16.0.2" />
+        <option name="sha256" value="dd2ef25ee1fe842eb5381a6b62af5c17bb2886e96d44df6e39c0831cb42a7a7a" />
+        <option name="url" value="https://corretto.aws/downloads/latest/amazon-corretto-16-x64-linux-jdk.tar.gz" />
+        <option name="versionText" value="16.0.2" />
+      </installed-jdk>
+    </option>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="CWM_LOGGING_VERSION" value="1" />
+    <property name="appcds.runOnSecondStart" value="IU-213.6777.52-c4fa38d043a2ec1d07f22af53e913a112bf8700a9822cec455d1668bc8a7ddaf" />
+    <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="bundled.plugins.list.saved.version" value="IU-213.6777.52" />
+    <property name="file.gist.reindex.count" value="10" />
+    <property name="fileTypeChangedCounter" value="1" />
+    <property name="fileTypeDetectors" value="com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector:com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector:com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.docker.dockerFile.DockerFileTypeDetector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector:org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector" />
+    <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
+    <property name="gotit.previous.run" value="IU-213.6777.52" />
+    <property name="ide.updates.whats.new.shown.for" value="213" />
+    <property name="installed.kotlin.plugin.version" value="213-1.5.10-release-949-IJ6777.52" />
+    <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
+    <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
+    <property name="packagesearch.status.updated.ts" value="1647391946205" />
+    <property name="registry.to.advanced.settings.migration.build" value="IU-213.6777.52" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="4.5.4" />
+  </component>
+</application>
