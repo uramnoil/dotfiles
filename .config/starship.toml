@@ -6,9 +6,31 @@ scan_timeout = 10
 
 # 記号の設定
 [character]
-success_symbol = "[▶](bold green)" # コマンド成功時
-error_symbol = "[▶](bold red)"    # コマンド失敗時
+success_symbol = "[➜](bold green) "
+error_symbol = "[✗](bold red) "
 
 [directory]
 truncation_length = 100
 truncate_to_repo = false
+
+[time]
+#時間の表示をオンにして12時間表示に
+disabled = false
+use_12hr = true
+
+[git_status]
+#Gitのステータス表示用アイコン
+conflicted = "💥"
+ahead = "🏎💨"
+behind = "😰"
+diverged = "😵"
+untracked = "🌚‍"
+stashed = "📦"
+modified = "📝"
+staged = '🔦'
+renamed = "🏷"
+deleted = "🗑"
+
+[cmd_duration]
+min_time = 500
+format = "underwent [$duration](bold yellow)"
