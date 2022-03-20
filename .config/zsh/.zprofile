@@ -3,3 +3,5 @@ if [ -z "$SSH_AUTH_SOCK" ] ; then
   ssh-add
   ssh-add ~/.ssh/github
 fi
+
+eval $(/usr/bin/locale-check C.UTF-8)
