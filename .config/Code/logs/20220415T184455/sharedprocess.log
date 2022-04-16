@@ -1,0 +1,14 @@
+[2022-04-15 18:44:57.016] [sharedprocess] [info] Starting worker process with pid 120284 (type: fileWatcher, window: 1).
+[2022-04-15 18:45:09.167] [sharedprocess] [info] Worker process with pid 120284 terminated normally (type: fileWatcher, window: 1).
+[2022-04-15 18:45:09.849] [sharedprocess] [info] Starting worker process with pid 120535 (type: fileWatcher, window: 1).
+[2022-04-15 19:12:18.972] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 120535 terminated by itself with code null, signal: SIGTRAP (type: fileWatcher, window: 1)
+[2022-04-15 19:12:18.995] [sharedprocess] [info] Starting worker process with pid 143100 (type: fileWatcher, window: 1).
+[2022-04-15 19:42:32.097] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 143100 terminated by itself with code null, signal: SIGTRAP (type: fileWatcher, window: 1)
+[2022-04-15 19:42:32.118] [sharedprocess] [info] Starting worker process with pid 148220 (type: fileWatcher, window: 1).
+[2022-04-15 20:12:35.734] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 148220 terminated by itself with code null, signal: SIGTRAP (type: fileWatcher, window: 1)
+[2022-04-15 20:12:35.755] [sharedprocess] [info] Starting worker process with pid 153787 (type: fileWatcher, window: 1).
+[2022-04-15 20:43:01.078] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 153787 terminated by itself with code null, signal: SIGTRAP (type: fileWatcher, window: 1)
+[2022-04-15 20:43:01.099] [sharedprocess] [info] Starting worker process with pid 160780 (type: fileWatcher, window: 1).
+[2022-04-15 21:13:10.322] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 160780 terminated by itself with code null, signal: SIGTRAP (type: fileWatcher, window: 1)
+[2022-04-15 21:13:10.343] [sharedprocess] [info] Starting worker process with pid 173447 (type: fileWatcher, window: 1).
+[2022-04-15 21:43:08.534] [sharedprocess] [error] SharedProcess (worker, fileWatcher): Worker process with pid 173447 terminated by itself with code null, signal: SIGTRAP (type: fileWatcher, window: 1)
