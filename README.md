@@ -19,7 +19,7 @@ make macos_hobby
 xcode-select --install
 git clone https://github.com/uramnoil/dotfiles.git
 cd dotfiles
-make macos_business
+make macos_buz
 ```
 
 ### for Linux
