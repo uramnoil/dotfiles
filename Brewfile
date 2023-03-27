@@ -1,0 +1,18 @@
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "sdkman/tap"
+
+brew "mas"
+brew "ghq"
+brew "neovim"
+brew "zsh"
+brew "starship"
+brew "sdkman-cli"
+brew "awscli"
+brew "kubernetes-cli"
+
+cask "visual-studio-code"
+cask "jetbrains-toolbox"
+cask "google-chrome"
+cask "slack"
+cask "docker"

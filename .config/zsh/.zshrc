@@ -1,4 +1,6 @@
-export LANG=ja_JP.UTF-8
-export GIT_EDITOR=vim
+eval $($(brew --prefix)/bin/brew shellenv)
+
+
+
 
 eval "$(starship init zsh)"

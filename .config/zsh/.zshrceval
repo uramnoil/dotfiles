@@ -1,2 +1,0 @@
-eval source <(/usr/local/bin/starship init zsh --print-full-init) source /proc/self/fd/13
-eval source <(/usr/local/bin/starship init zsh --print-full-init) source /proc/self/fd/13
