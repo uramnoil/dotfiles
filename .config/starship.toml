@@ -1,3 +1,6 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
 # 空行追加
 add_newline = true
 
@@ -19,17 +22,6 @@ disabled = false
 use_12hr = true
 
 [git_status]
-#Gitのステータス表示用アイコン
-conflicted = "💥"
-ahead = "🏎💨"
-behind = "😰"
-diverged = "😵"
-untracked = "🌚‍"
-stashed = "📦"
-modified = "📝"
-staged = '🔦'
-renamed = "🏷"
-deleted = "🗑"
 
 [cmd_duration]
 min_time = 500
