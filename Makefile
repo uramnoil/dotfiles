@@ -1,5 +1,5 @@
 .PHONY: macos
-macos: link init macos_init homebrew font
+macos: link macos_init homebrew font
 
 .PHONY: macos_biz
 macos_biz: macos brew_bundle_biz
