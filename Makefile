@@ -1,11 +1,11 @@
 .PHONY: macos
-macos: link macos_init homebrew font
+macos: link macos_init homebrew
 
 .PHONY: macos_biz
-macos_biz: macos brew_bundle_biz
+macos_biz: macos brew_bundle_biz font
 
 .PHONY: macos_hobby
-macos_hobby: macos brew_bundle_hobby
+macos_hobby: macos brew_bundle_hobby font
 
 .PHONY: linux
 linux: link homebrew brew_bundle_dev 
