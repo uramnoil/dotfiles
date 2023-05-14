@@ -8,7 +8,7 @@ macos_biz: macos brew_bundle_biz font
 macos_hobby: macos brew_bundle_hobby font
 
 .PHONY: linux
-linux: link homebrew brew_bundle_dev 
+linux: link homebrew brew_bundle_dev docker
 
 .PHONY: linux_desktop
 linux_desktop: linux font
@@ -32,6 +32,10 @@ brew_bundle_dev:
 .PHONY: brew_bundle_hobby
 brew_bundle_hobby:
 	brew bundle --file Brewfile.hobby
+
+.PHONY: docker
+docker:
+	bin/docker.sh
 
 .PHONY: source
 source:
